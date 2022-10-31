@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RegisterComponent } from './register/register.component';
 import { FormsModule } from '@angular/forms';
+import { AluLoginComponent } from './alu-login/alu-login.component';
+import { ViewentsComponent } from './viewents/viewents.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
+    AluLoginComponent,
+    ViewentsComponent,
     
   ],
   imports: [
